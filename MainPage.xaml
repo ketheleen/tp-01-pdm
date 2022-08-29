@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP01.MainPage">
+
+    <StackLayout>
+        <Label Text="TP XAMARIN PDMI6" FontSize="Title" HorizontalTextAlignment="Center"/>
+        <Entry x:Name="txtId" Placeholder="ID" />
+        <Entry x:Name="txtSenha" Placeholder="Senha" IsPassword="True"/>
+
+        <StackLayout VerticalOptions="Center">
+            <Button x:Name="btnOk" Text="Enviar" BackgroundColor="LightBlue" TextColor="Black" CornerRadius="8" Clicked="btnOk_Clicked"/>
+            <Button x:Name="btnLimpar" Text="Limpar" BackgroundColor="LightBlue" TextColor="Black" CornerRadius="4" Clicked="btnLimpar_Clicked"/>
+            <Button x:Name="btnCreditos" Text="Créditos" BackgroundColor="LightBlue" TextColor="Black" CornerRadius="4" Clicked="btnCreditos_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
